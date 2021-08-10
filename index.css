@@ -1,0 +1,34 @@
+#external {
+	color: yellow;
+}
+*{
+	font-family: "Verdana", monospace;
+	font-size: 20px;
+
+}
+h1 {
+	font-size: 3rem;
+}
+#things_to_learn{
+	text-transform: uppercase;
+}
+.p_lang {
+	background-color: #aed19d;
+}
+li[class="border"] {
+	border-color: rgb(157, 176, 209);
+}
+img + ul {
+	list-style: none;
+}
+section img {
+	height: 150px;
+	width: 150px;
+	border-radius: 150px;
+}
+section > ul > li {
+	letter-spacing: 10px;
+}
+ul ~ p {
+	text-align: center;
+}
